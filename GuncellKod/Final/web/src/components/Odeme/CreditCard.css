@@ -1,0 +1,21 @@
+.text-css {
+
+    max-width: 100%;
+    width: 14vw;
+    height: 2.7vh;
+    border-radius: 0.3px;
+    font-size: 13px;
+    outline: none;
+    transition: all 0.3s;
+    text-align: center;
+    background-color: mistyrose;
+    margin: 7px;
+}
+
+.form-group {
+   
+  
+    justify-content: space-between;
+
+    
+}

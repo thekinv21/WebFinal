@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-full-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://cdn.wallpapersafari.com/81/41/pvUkKo.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-form-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.home-form {
+  max-width: 100%;
+  width: 25vw;
+  height: 70vh;
+  border: solid 0.5px;
+  border-color: #fff;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.home-form:hover {
+  z-index: 1;
+  transform: scale(1.1);
+  box-shadow: 0 25px 70px rgba(7, 224, 7, 0.5);
+}
+
+.home-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.home-icerik {
+  margin-top: 80px;
+  text-align: center;
+  color: lightgrey;
+
+
+}
+
+.li {
+  padding: 15px;
+  font-family: "Times New Roman", Times, serif;
+  list-style: none;
+  
+}
+
+

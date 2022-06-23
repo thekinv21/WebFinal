@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.subcribes-full-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://cdn.wallpapersafari.com/81/41/pvUkKo.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.subcribes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.subcribes-form {
+  max-width: 100%;
+  width: 25vw;
+  height: 70vh;
+  border: solid 0.5px;
+  border-color: #fff;
+}
+
+.subcribes-title {
+  max-width: 100%;
+  font-size: 20px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.subcribes-half-page {
+
+  height: 55vh;
+  width: auto;
+}
+
+
+
+.subcribes-second-page {
+
+  height: 10vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+

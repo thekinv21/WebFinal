@@ -1,0 +1,39 @@
+.app-container {
+  padding: 5rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+th,
+td {
+  border: 0.1px solid #ffffff;
+  text-align: center;
+  padding: 6px;
+  font-size: 16px;
+  cursor: pointer;
+
+
+}
+
+th {
+  background-color: green;
+}
+
+td {
+  background-color: darkslategray;
+  
+}
+
+
+.icerik  :hover {
+
+  z-index: 1;
+  transform: scale(1.1);
+  box-shadow: 0 25px 70px rgb(7, 245, 19); 
+
+  
+}

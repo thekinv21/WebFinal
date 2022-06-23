@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Full sayfam css*/
+.rezer-full-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://cdn.wallpapersafari.com/81/41/pvUkKo.jpg");
+  
+  background-size: cover;
+  color: white;
+}
+
+/*Formu Tam Ortada tutmak için container */
+.rezervation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/*Form ayarları */
+.rezervation-form {
+  max-width: 100%;
+  width: 35vw;
+  height: 60vh;
+  border: solid 0.5px;
+  border-color: #fff;
+ 
+}
+
+
+/*Formu ikiye böldüm button sabit dursun diye */
+.half-page {
+  height: 45vh;
+  width: auto;
+  text-align: center;
+}
+
+.rezer-second-page {
+  height: 15vh;
+  width: auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center
+  
+}
+
+/*Button csslerim*/
+.rezer-save-btn {
+  max-width: 50%;
+  width: 200px;
+  height: 35px;
+  border: none;
+  color: white;
+  background-color: red;
+  border-radius: 75px;
+  box-shadow: inset 0 0 0 0 #f9e506;
+  transition: ease-out 0.3s;
+  font-size: 22px;
+  outline: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.rezer-save-btn:hover {
+  box-shadow: inset 300px 0 0 0 #f9e506;
+  cursor: pointer;
+  color: #000;
+}
+
+/*Form içi başlik*/
+.rezer-title {
+  max-width: 100%;
+  font-size: 20px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+ 
+}
+
+/*sayfa küçüldügünde nesnelerin harekey etmesi için wrapp kullandım */
+.rezervation-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+/*Text csslerim*/
+.text {
+  max-width: 100%;
+  width: 14vw;
+  height: 2.7vh;
+  border-radius: 0.3px;
+  font-size: 13px;
+  outline: none;
+  transition: all 0.3s;
+  text-align: center;
+  background-color: mistyrose;
+  margin: 7px;
+}
+
+/* text başlikları css*/
+.p-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+

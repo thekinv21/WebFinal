@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .info-full-page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://cdn.wallpapersafari.com/81/41/pvUkKo.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+  }
+
+  /* Style the submit button */
+.search-btn {
+  float: left;
+  width: 5rem;
+  padding: 10px;
+  background: #0c8d17;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}

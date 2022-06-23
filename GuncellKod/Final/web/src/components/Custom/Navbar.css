@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.full-navbar {
+  color: white;
+}
+
+.first-navbar {
+  width: 85%;
+  height: 10vh;
+  float: left;
+  /* background-color: rgb(82, 180, 36); */
+  background-color: inherit;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.second-navbar {
+  width: 15%;
+  height: 10vh;
+  float: right;
+  background-color: inherit;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul-css {
+  min-width: 10vw;
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-size: 18px;
+  cursor: pointer;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.quit-btn {
+  min-width: 10vw;
+  height: 4.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.quit-btn:hover {
+  background-color: red;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+/* logo için */
+.flat {
+  width: 110px;
+  border-radius: 150px;
+  cursor: pointer;
+
+}
+
+.btn {
+  border-radius: 50px;
+  padding: 15px 25px;
+}
+
+.btn:hover {
+    background-color: rgb(29, 226, 78);
+}
+
+
+.active {
+
+  background-color: red;
+  color: white;
+}
+
+
+
+

@@ -1,0 +1,107 @@
+.login-full-page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://cdn.wallpapersafari.com/81/41/pvUkKo.jpg");
+    background-size: cover;
+    background-position: top;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+
+    width: 20vw;
+    height: 60vh;
+    font-size: 15px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+
+}
+
+.first-page {
+
+    height: 20vh;
+    width: 20vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+
+.second-page {
+
+    height: 8vh;
+    width: 20vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.log-title {
+
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    
+}
+
+.baslik {
+
+    color : white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.space {
+
+    margin: 10px;
+}
+
+
+
+.Text_css {
+
+    max-width: 80%;
+    max-height: 80%;
+    width: 240px;
+    height: 30px;
+    /* border: 2px solid #2f2c45;
+    background: #272530; */
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s;
+    text-align: center;
+    margin: 10px;
+
+  
+}
+
+.log-button {
+
+    max-width: 80%;
+    max-height: 80%;
+    width: 140px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-color: #2f2c45;
+    background: #272530; */
+   
+
+}
+
+.flat-logo {
+    
+    border-radius: 150px;
+    width: 110px;
+    margin: 0;
+}
+
+

@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sahalar-full-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://cdn.wallpapersafari.com/81/41/pvUkKo.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subcribes {
+  color: #fff;
+}
+
+/* Title benim elementlerimi aynı hızada ve ortada tutuyor*/
+.title {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: #fff;
+
+}
+
+.wrap {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+  list-style: none;
+}
+
+.wrap :hover {
+  z-index: 1;
+  transform: scale(1.1);
+  box-shadow: 0 25px 40px rgba(207, 2, 2, 0.5);
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  width: 350px;
+  position: top;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.example1 {
+
+border-radius: 10px;
+}
+
+.example {
+
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 20rem;
+  background: #f1f1f1;
+ 
+}
+
+
+
+.search-btn :hover {
+  background: #0b7dda;
+}
+
+.app {
+
+  margin: 20px;
+  text-align: center;
+  
+}
+
